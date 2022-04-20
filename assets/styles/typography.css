@@ -1,8 +1,11 @@
 @import "fonts.css";
 
+
 html { 
     font-family: "Merriweather"; 
     font-size: 120%;
+    background-color: grey;
+    color: black;
 }
 p {
     font-family: "Merriweather";
@@ -13,9 +16,16 @@ h1, h2, h3, h4 {
     font-family: "Merriweather";
     font-size: 120%;
     font-style: bold;
+    color: blue;
+    border-bottom: 2px, solid blue;
 }
 li, ul {
     font-family: "Merriweather";
     font-size: 90%;
     font-style: normal;
 } 
+
+figcaption {
+    color: black;
+    font-size: 110%;
+}
