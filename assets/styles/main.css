@@ -3,3 +3,11 @@ html {
     color: black;
     font-size: 12pt;
 }
+
+h1 h2 h3 h4 {
+    color: blue;
+    font-size: 2rem;
+    font-weight: 200;
+    font-family: Merriweather-Black;
+    border-bottom: 2px, solid purple;
+}
