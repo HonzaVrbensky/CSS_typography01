@@ -10,7 +10,16 @@ html {
 main{
     width: 60rem;
     margin:2rem auto;
-    background-color: rgba(230, 200, 230, .8);
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 5px rgba(100, 100, 100,.5);
+    backdrop-filter: blur(2px);
+}
+main_1 {
+    width: 60rem;
+    margin:2rem auto;
+    background-color: white;
     padding: 2rem;
     border-radius: 2rem;
     box-shadow: 10px 10px 5px rgba(100, 100, 100,.5);
