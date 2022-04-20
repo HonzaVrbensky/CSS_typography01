@@ -33,3 +33,13 @@ li, ul {
     font-size: 90%;
     font-style: normal;
 } 
+
+a{
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: purple;   
+    text-decoration: underline;
+}
