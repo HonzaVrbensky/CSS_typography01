@@ -2,7 +2,7 @@
 
 
 html { 
-    font-family: "Merriweather"; 
+    font-family: "Lato"; 
     font-size: 120%;
     background-color: lightgrey;
     color: black;
@@ -12,13 +12,13 @@ main{
     margin:2rem auto;
     background-color: white;
     padding: 2rem;
-    border-radius: 2rem;
+    border-radius: 4rem;
     box-shadow: 10px 10px 5px rgba(100, 100, 100,.5);
     backdrop-filter: blur(2px);
 }
 
 p {
-    font-family: "Merriweather";
+    font-family: "Lato";
     font-size: 80%;
     font-style: normal;
 }
@@ -28,9 +28,10 @@ h1, h2, h3, h4 {
     font-style: bold;
     color: blue;
     border-bottom: 2px, solid blue;
+    text-decoration: underline;
 }
 li, ul {
-    font-family: "Merriweather";
+    font-family: "Lato";
     font-size: 90%;
     font-style: normal;
 } 
@@ -43,4 +44,13 @@ a{
 a:hover {
     color: purple;   
     text-decoration: underline;
+}
+
+figcaption {
+    text-decoration: underline;
+}
+
+b {
+    font-family: "Lato";
+    font-style: italic;
 }
