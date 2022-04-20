@@ -14,7 +14,8 @@ main{
     padding: 2rem;
     border-radius: 4rem;
     box-shadow: 10px 10px 5px rgba(100, 100, 100,.5);
-    backdrop-filter: blur(2px);
+    border: 2px grey solid;
+    /*backdrop-filter: blur(2px);*/
 }
 
 p {
@@ -32,7 +33,7 @@ h1, h2, h3, h4 {
 }
 li, ul {
     font-family: "Lato";
-    font-size: 90%;
+    font-size: 95%;
     font-style: normal;
 } 
 
@@ -54,3 +55,4 @@ b {
     font-family: "Lato";
     font-style: italic;
 }
+
