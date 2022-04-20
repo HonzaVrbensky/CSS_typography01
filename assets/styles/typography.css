@@ -4,8 +4,17 @@
 html { 
     font-family: "Merriweather"; 
     font-size: 120%;
-    background-color: grey;
+    background-color: lightgrey;
     color: black;
+}
+main{
+    width: 60rem;
+    margin:2rem auto;
+    background-color: rgba(230, 200, 230, .8);
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 5px rgba(100, 100, 100,.5);
+    backdrop-filter: blur(2px);
 }
 p {
     font-family: "Merriweather";
@@ -24,8 +33,3 @@ li, ul {
     font-size: 90%;
     font-style: normal;
 } 
-
-figcaption {
-    color: black;
-    font-size: 110%;
-}
